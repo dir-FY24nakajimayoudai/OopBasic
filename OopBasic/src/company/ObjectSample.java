@@ -7,7 +7,7 @@ public class ObjectSample {
         //インスタンスの作成
         var department = new Department("営業部", "xx", 1000000);
         var employee = new Employee("鈴木", department, "課長", 100);
-    
+        
         employee.report();
         employee.report(23);
         employee.joinMeeting();
